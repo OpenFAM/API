@@ -1,5 +1,4 @@
-# API
-OpenFAM API
+# OpenFAM API
 
 Recent technology advances in high-density, byte-addressable non-volatile memory (NVM) and low-latency interconnects have enabled building large-scale systems with a large disaggregated fabric-attached memory (FAM) pool shared across heterogeneous and decentralized compute nodes. In this model, compute nodes are decoupled from FAM, which allows separate evolution and scaling of processing and fabric-attached memory. The large capacity of the FAM pool means that large working sets can be maintained as in-memory data structures. The fact that all compute nodes share a common view of memory means that data sharing and communication may be done efficiently through shared memory, without requiring explicit messages to be sent over heavyweight network protocol stacks. Additionally, data sets no longer need to be partitioned between compute nodes, as is typically done in clustered environments. Any compute node can operate on any data item, which enables more dynamic and flexible load balancing. 
 
